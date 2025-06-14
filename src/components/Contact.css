@@ -1,0 +1,43 @@
+.contact-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem;
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 1rem;
+    background-color: #111;
+    color: white;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+  }
+  
+  .contact-input::placeholder {
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Social Icons */
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /**/
+
+  .social-icon-glow {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+  filter: brightness(1);
+}
+
+.social-icon-glow:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 25px 10px rgba(255, 0, 0, 0.6); /* Red haze glow */
+  border-radius: 50%;
+}
